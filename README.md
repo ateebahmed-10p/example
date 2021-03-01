@@ -1,2 +1,2 @@
 # example
-this repo contains the training material.
+this repo contains the C++ training material.
