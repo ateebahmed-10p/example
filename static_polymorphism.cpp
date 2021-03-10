@@ -14,12 +14,12 @@ class Generic
         // func 2
         void adder(int a){
             static_cast<T*>(this)->adder(a);
+            cout << sizeof(T) << endl;
             // OR 
             /*
             T temp;
             temp.adder(a);
             */
-
         };
 };
 
@@ -28,21 +28,24 @@ class Derived : public Generic<Derived>
 {
     public:
         // func 1
+        int a[5];
         void adder(int a)
         {
             cout <<  a+4 << endl;
             // Generic::adder(a);
         }
+        int parser(int a)
+        {
+            cout << "adder from derived!" << endl;
+            return a;
+        }  
+
 };
 
 
 int main()
 {
-    Derived d;
-    d.parser(5);    
+    Generic<Derived>* g = new Derived();
+    static_cast<Derived*>(g)->parser(5);    
     return 0;
 }
-
-
-
-
