@@ -1,6 +1,4 @@
-
-// template <typename Container>
-// void double_each_element(Container& arr)
+void foo(int *a)
 // {
-//     for (Container::iterator)
-// } 
+//     a = new int(96);
+// }
