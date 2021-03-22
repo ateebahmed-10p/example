@@ -29,5 +29,8 @@ int main()
     cout << std::get<0>(t) << endl;
     cout << std::get<1>(t) << endl;
 
+    // the retrieving method is a little ugly. the preferred way of doing it is whats called structured bindings.
+    
+
     return 0;
 }

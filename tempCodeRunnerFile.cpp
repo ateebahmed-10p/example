@@ -1,2 +1,8 @@
-    // cout << ateeb.use_count() << endl; // 2 
-    // cout << asma.use_count() << endl;  // 2
+arr.emplace_back(s);
+    // arr.emplace_back(i);
+    // arr.emplace_back(c);
+    // arr.emplace_back(f);
+    // arr.emplace_back(d);
+
+    // //print the array
+    

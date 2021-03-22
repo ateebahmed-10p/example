@@ -35,7 +35,7 @@ int main ()
     c->bark();
     //foo(c); // lol wont compile. copy constructor of unique_ptr is deleted!!
     //foo(std::move(c)); // move semantics works.
-    unique_ptr<Cat> c2 = bar(std::move(c));
+    unique_ptr<Cat> c2 = bar(std::move(c)); 
 
     return 0 ;
 }
