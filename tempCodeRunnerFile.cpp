@@ -1,8 +1,18 @@
-arr.emplace_back(s);
-    // arr.emplace_back(i);
-    // arr.emplace_back(c);
-    // arr.emplace_back(f);
-    // arr.emplace_back(d);
-
-    // //print the array
-    
+hile(lists.size() != 0)
+        // {
+        //     auto min_idx = lists.begin();
+        //     for (auto i = lists.begin(); i != lists.end() ; i++)
+        //     {
+        //         if(*i)
+        //         {
+        //             if (*min_idx->val > *i->val)
+        //                 min_idx = i; 
+        //         }
+        //     }
+        //     // create a listnode to append it in the head
+        //     ptr->next = new ListNode(*min_idx->val);
+        //     ptr = ptr->next;
+        //     *min_idx = *min_idx->next;
+        //     if (min_idx == nullptr)
+        //         lists.erase(min_idx);
+        // }
